@@ -1,0 +1,127 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento); /* i liked this font from a previous checkpoint more than the pre-loaded fonts */
+
+body {
+  background: ghostwhite;
+  margin: 0px;
+} /* white body background */
+
+header {
+  height: 116px;
+  background: ghostwhite;
+} /* white header background */
+
+h1 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 40px;
+  color: #DFCC9C;
+  text-transform: uppercase;
+  padding-top: 50px;
+	float: right;
+	margin: 0 5px 0 0;
+} /* header 1 style */
+
+h2 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #807459;
+  text-transform: uppercase;
+  padding-top: 96px;
+  text-align: right;
+  margin: 0 5px 0 0;
+} /* header 2 style */
+
+hr {
+	height: 1px;
+	background-color: #403A2C;
+} /* horizontal ruler style */
+
+main {
+  background: ghostwhite;
+  padding: 50px 50px 0 50px;
+  text-align: center;
+} /*white background behind main area */
+
+.image-circle {
+  border-radius: 50%;
+} /* crops the photo into a circle */
+
+ul {
+  list-style-position: inside;
+  font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #403A2C;
+  text-align: left;
+} /* unordered list style */
+
+h3 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 32px;
+	color: #403A2C;
+  text-align: center;
+} /* header 3 text style */
+
+p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #403A2C;
+  text-align: left;
+} /* paragraph text style */
+
+a:link {
+	color: #BFAF85;
+  text-decoration-line: none;
+  font-weight: 600;
+} /* original link style with no interaction */
+
+a:visited {
+	color: #807459;
+  text-decoration-line: none;
+  font-weight: 600;
+} /* link style after it's been clicked */
+
+a:hover {
+  color: #DFCC9C;
+  text-decoration-line: none;
+  font-weight: 600;
+} /* link style when cursor hovers over it */
+
+a:active {
+  color: #FFE9B2;
+  text-decoration-line: none;
+  font-weight: 600;
+} /* link style when being clicked */
+
+ol {
+  list-style-position: inside;
+  font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #403A2C;
+  text-align: left;
+} /* ordered list style */
+
+footer {
+  background: ghostwhite;
+  margin-top: 75px;
+} /* white footer background */
+
+footer p {
+  font-family: Quattrocento, sans-serif;
+	font-size: 13px;
+	color: #605743;
+  text-align: center;
+  font-style: italic;
+} /* footer text style */
