@@ -7,19 +7,22 @@ html {
   box-sizing: inherit;
 }
 
+/* i liked this font from a previous checkpoint more than the pre-loaded fonts */
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
 
-@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento); /* i liked this font from a previous checkpoint more than the pre-loaded fonts */
-
+/* white body background */
 body {
   background: ghostwhite;
   margin: 0px;
-} /* white body background */
+} 
 
+/* white header background */
 header {
   height: 116px;
   background: ghostwhite;
-} /* white header background */
+} 
 
+/* header 1 style */
 h1 {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 40px;
@@ -28,8 +31,9 @@ h1 {
   padding-top: 50px;
 	float: right;
 	margin: 0 5px 0 0;
-} /* header 1 style */
+} 
 
+/* header 2 style */
 h2 {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 20px;
@@ -39,23 +43,27 @@ h2 {
   padding-top: 96px;
   text-align: right;
   margin: 0 5px 0 0;
-} /* header 2 style */
+} 
 
+/* horizontal ruler style */
 hr {
 	height: 1px;
 	background-color: #403A2C;
-} /* horizontal ruler style */
+} 
 
+/*white background behind main area */
 main {
   background: ghostwhite;
   padding: 50px 50px 0 50px;
   text-align: center;
-} /*white background behind main area */
+} 
 
+/* crops the photo into a circle */
 .image-circle {
   border-radius: 50%;
-} /* crops the photo into a circle */
+}
 
+/* unordered list style */
 ul {
   list-style-position: inside;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -63,47 +71,54 @@ ul {
 	line-height: 28px;
 	color: #403A2C;
   text-align: left;
-} /* unordered list style */
+} 
 
+/* header 3 text style */
 h3 {
 	font-family: Quattrocento, sans-serif;
 	font-size: 32px;
 	color: #403A2C;
   text-align: center;
-} /* header 3 text style */
+} 
 
+/* paragraph text style */
 p {
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 18px;
 	line-height: 28px;
 	color: #403A2C;
   text-align: left;
-} /* paragraph text style */
+} 
 
+/* original link style with no interaction */
 a:link {
 	color: #BFAF85;
   text-decoration-line: none;
   font-weight: 600;
-} /* original link style with no interaction */
+} 
 
+/* link style after it's been clicked */
 a:visited {
 	color: #807459;
   text-decoration-line: none;
   font-weight: 600;
-} /* link style after it's been clicked */
+} 
 
+/* link style when cursor hovers over it */
 a:hover {
   color: #DFCC9C;
   text-decoration-line: none;
   font-weight: 600;
-} /* link style when cursor hovers over it */
+} 
 
+/* link style when being clicked */
 a:active {
   color: #FFE9B2;
   text-decoration-line: none;
   font-weight: 600;
-} /* link style when being clicked */
+} 
 
+/* ordered list style */
 ol {
   list-style-position: inside;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -111,7 +126,7 @@ ol {
 	line-height: 28px;
 	color: #403A2C;
   text-align: left;
-} /* ordered list style */
+} 
 
 footer {
   background: ghostwhite;
