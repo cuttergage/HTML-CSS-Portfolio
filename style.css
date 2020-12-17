@@ -55,6 +55,7 @@ hr {
 main {
   background: ghostwhite;
   padding: 50px 50px 0 50px;
+	text-align: center;
 } 
 
 /* crops the photo into a circle */
